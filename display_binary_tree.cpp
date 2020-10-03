@@ -1,6 +1,7 @@
 #include<iostream>
 #include<conio.h>
 using namespace std;
+
 class node
 {
 	int info;
@@ -54,6 +55,7 @@ void binary::insert(int ele,node *r)
 			insert(ele,r->left);
 	
 }
+
 void binary::display()
 {
 	if(root)
@@ -74,6 +76,7 @@ void binary::display()
 	}
 	
 }
+	
 int main()
 {
 	binary b;
