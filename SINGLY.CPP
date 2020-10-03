@@ -1,6 +1,7 @@
 #include<iostream.h>
 #include<conio.h>
 #include<process.h>
+
 class node
 {
 	private:
@@ -10,6 +11,7 @@ class node
 	public:
 	node(int el,node *p=0);
 };
+
 node::node(int el,node *p)
 {
 	info=el;
@@ -85,6 +87,7 @@ void linklist::display()
 		i=i->next;
 	}
 }
+
 void linklist::merge(linklist &l1,linklist &l2)
 {
 
