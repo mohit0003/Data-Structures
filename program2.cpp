@@ -2,10 +2,12 @@
 #include<stack>
 #include<conio.h>
 using namespace std;
+
 void check(stack <int>s)
 {
 	/*
-	objective:given a stack of integers,check whether each successive pair of numbers in the stack is consecutive or not.
+	Objective:given a stack of integers,check whether each successive pair of numbers in the stack is consecutive or not.
+	
 	input parameters:
 		s-integer object of stack
 	return value:none
