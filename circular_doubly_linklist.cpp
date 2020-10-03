@@ -2,6 +2,7 @@
 #include<iostream.h>
 #include<conio.h>
 #include<process.h>
+
 class node
 {
 	private:
@@ -67,9 +68,6 @@ void doubly::addtotail(int ele)
 
 }
 
-
-
-
 void main()
 {
 	clrscr();
@@ -94,15 +92,13 @@ void main()
 		       l1.addtotail(ele);
 		       l1.display();
 		       break;
-
-
-			default:exit(0);
+		default:exit(0);
 
 		}
 
 		cout<<"\n\n\tDO U WANT TO CONTINUE?";
 		cin>>c;
+		
 	}while(c=='Y'||c=='y');
 	getch();
 }
-
