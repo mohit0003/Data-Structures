@@ -1,10 +1,11 @@
 #include<iostream>
 #include<conio.h>
 using namespace std;
+
 class node
 {
 	/*
-	objective: Create a class for implementing node
+	Objective: Create a class for implementing node
 	input parameters: none
 	output value: none
 	description:  class definition
@@ -94,6 +95,7 @@ void linkedlist::reverse_consec()
 	
 	int t;
 	node *temp=head;
+	
 	while(temp&&temp->next!=0)
 	{
 		t=temp->info;
