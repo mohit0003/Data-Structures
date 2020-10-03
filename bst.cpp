@@ -1,11 +1,13 @@
 #include<iostream>
 #include<conio.h>
 using namespace std;
+
 class node
 {
-	int info;
-	node *left;
-	node *right;
+	private:
+		int info;
+		node *left;
+		node *right;
 	public:
 		friend class bst;
 		node()
