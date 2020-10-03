@@ -5,11 +5,11 @@ using namespace std;
 
 class SNode { 
 	/*   			
-	objective: Create a class for a Node for Single Linked list
-	input parameters: none
-	output value: none
-	description: SNode class defines the node structure 
-	approach: Class defines data item is names element with datatype string 
+	Objective: Create a class for a Node for Single Linked list
+	input parameters: none 
+	Output value: none 
+	Description: SNode class defines the node structure 
+	Approach: Class defines data item is names element with datatype string 
 			and link is named next pf snode type
 	*/
 	private:
