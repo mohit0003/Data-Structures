@@ -1,11 +1,12 @@
 #include<iostream>
 #include<conio.h>
 using namespace std;
+
 void check(int *main_local_addr)
 {
 	/*
-	objective:to check whether stack grows upward or downward
-	input parameters:
+	Objective:to check whether stack grows upward or downward
+	Input parameters:
 				main_local_addr-it stores address of main local variable 
 	return value:none
 	approach:-if address of function variable is greater than address of main local variable
@@ -14,6 +15,7 @@ void check(int *main_local_addr)
 					stack grows downward 
 	*/
 	int func_par;
+	
 	if(&func_par>main_local_addr)
 		cout<<"\n\tSTACK GROWS UPWARD";
 	else
